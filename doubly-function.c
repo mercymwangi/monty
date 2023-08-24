@@ -1,7 +1,12 @@
 #include "monty.h"
 
 /**
+<<<<<<< HEAD
  *add_dnodeint_end - functions that adds a node at the end of a doubly list
+=======
+ * add_dnodeint_end - functions that adds a note at the
+ * end of the doubly link list
+>>>>>>> 1ec9d518347c28b9cf396c4b3f5ea8a2200861d7
  *@head: first node
  *@n: size of data
  *Return: a doubly linked list
