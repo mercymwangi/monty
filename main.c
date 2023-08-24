@@ -1,6 +1,5 @@
 #include "monty.h"
 
-global_t vglo;
 
 /**
  * free_vglo - funtion that frees the global variables
