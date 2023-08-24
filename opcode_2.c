@@ -56,7 +56,7 @@ void _add(stack_t **doubly, unsigned int cline)
 
 	node = (*doubly)->next;
 	node->n += (*doubly)->n;
-	node->n + = (*doubly)->n;
+	node->n += (*doubly)->n;
 	_pop(doubly, cline);
 }
 

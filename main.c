@@ -24,7 +24,7 @@ void start_vglo(FILE *fd)
 	vglo.cont = 1;
 	vglo.arg = NULL;
 	vglo.head = NULL;
-	vglo.fd = file_d;
+	vglo.fd = fd;
 	vglo.buffer = NULL;
 }
 

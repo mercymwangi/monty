@@ -2,10 +2,8 @@
 
 /**
  *add_dnodeint_end - functions that adds a node at the end of a doubly list
-=======
  * add_dnodeint_end - functions that adds a note at the
  * end of the doubly link list
->>>>>>> 1ec9d518347c28b9cf396c4b3f5ea8a2200861d7
  *@head: first node
  *@n: size of data
  *Return: a doubly linked list
@@ -35,8 +33,8 @@ stack_t *add_dnodeint_end(stack_t **head, const int n)
 	node = *head;
 	while (node->next)
 		node = node->next;
-	temp->next = node->next;
-	temp->prev = node;
+	tmp->next = node->next;
+	tmp->prev = node;
 	node->next = tmp;
 	return (node->next);
 }
